@@ -18,9 +18,6 @@ function App() {
   return (
     <>
       <Header/>
-
-
-
       <Routes>
         <Route path="/" element={<Home data={list}/>}/>
         <Route path="/posts" element={<Posts data={list}/>}/>
