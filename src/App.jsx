@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import Home from './pages/Home'
 import Posts from './pages/Posts'
-import Post from './pages/post'
+import Post from './pages/Post'
 
 function App() {
   const [list, setList] = useState([]);
