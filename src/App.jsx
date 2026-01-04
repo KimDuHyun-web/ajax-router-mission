@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { data, Route, Routes } from 'react-router'
 import './App.css'
 import Header from './components/Header'
-import Home from './pages/home'
+import Home from './pages/Home'
 import Posts from './pages/posts'
 import Post from './pages/post'
 
