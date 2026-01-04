@@ -3,8 +3,8 @@ import { data, Route, Routes } from 'react-router'
 import './App.css'
 import Header from './components/Header'
 import Home from './pages/Home'
-import Posts from './pages/posts'
-import Post from './pages/post'
+import Posts from './pages/posts.jsx'
+import Post from './pages/post.jsx'
 
 function App() {
   const [list, setList] = useState([]);
