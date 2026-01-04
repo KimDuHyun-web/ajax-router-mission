@@ -3,8 +3,8 @@ import { data, Route, Routes } from 'react-router'
 import './App.css'
 import Header from './components/Header'
 import Home from './pages/Home'
-import Posts from './pages/posts.jsx'
-import Post from './pages/post.jsx'
+import Posts from './pages/Posts'
+import Post from './pages/post'
 
 function App() {
   const [list, setList] = useState([]);
@@ -29,8 +29,8 @@ function App() {
       <hr />
       <Routes>
         <Route path="/" element={<Home data={list}/>}/>
-        <Route path="/posts" element={<Posts data={list}/>}/>
-        <Route path="/posts/:id" element={<Post 
+        <Route path="/Posts" element={<Posts data={list}/>}/>
+        <Route path="/Posts/:id" element={<Post 
         data={list} 
         deletePost={deletePost}/>}/>
       </Routes>
